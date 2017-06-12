@@ -9,7 +9,7 @@ namespace SimUDuck
 
         public void Swim()
         {
-            Console.Write("Swim ducky, swim");
+            Console.WriteLine("Swim ducky, swim");
         }
 
         public void Quack()

@@ -12,7 +12,7 @@ namespace SimUDuck
 
         override public void Display()
         {
-            Console.Write("It's a mallard");
+            Console.WriteLine("It's a mallard");
         }
     }
 }

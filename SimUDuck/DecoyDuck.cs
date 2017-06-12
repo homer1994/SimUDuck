@@ -12,7 +12,7 @@ namespace SimUDuck
 
         public override void Display()
         {
-            Console.Write("It's a Decoy duck");
+            Console.WriteLine("It's a Decoy duck");
         }
     }
 }

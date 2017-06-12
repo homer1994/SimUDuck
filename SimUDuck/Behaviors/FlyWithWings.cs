@@ -6,7 +6,7 @@ namespace SimUDuck.Behaviors
     {
         public void Fly()
         {
-            Console.Write("Fly");
+            Console.WriteLine("Fly");
         }
     }
 }

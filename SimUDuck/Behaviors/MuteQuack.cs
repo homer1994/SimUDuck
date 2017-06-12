@@ -6,7 +6,7 @@ namespace SimUDuck.Behaviors
     {
         public void Quack()
         {
-            Console.Write("Silence");
+            Console.WriteLine("Silence");
         }
     }
 }
