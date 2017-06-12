@@ -1,4 +1,6 @@
-﻿namespace SimUDuck
+﻿using System;
+
+namespace SimUDuck
 {
     public class MullardDuck : Duck
     {
@@ -10,7 +12,7 @@
 
         override public void Display()
         {
-            //Mullard
+            Console.Write("It's a mallard");
         }
     }
 }

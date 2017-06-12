@@ -1,4 +1,6 @@
-﻿namespace SimUDuck
+﻿using System;
+
+namespace SimUDuck
 {
     class RubberDuck : Duck
     {
@@ -10,7 +12,7 @@
 
         override public void Display()
         {
-            //Rubber duck
+            Console.Write("It's a Rubber duck");
         }
     }
 }

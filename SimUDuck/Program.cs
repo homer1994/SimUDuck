@@ -10,6 +10,8 @@ namespace SimUDuck
             mallard.Fly();
             Duck rubberDuck = new RubberDuck();
             rubberDuck.Quack();
+            Duck decoyDuck = new DecoyDuck();
+            decoyDuck.Swim();
         }
     }
 }

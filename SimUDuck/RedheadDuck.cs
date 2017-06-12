@@ -1,4 +1,6 @@
-﻿namespace SimUDuck
+﻿using System;
+
+namespace SimUDuck
 {
     public class RedheadDuck : Duck
     {
@@ -10,7 +12,7 @@
 
         override public void Display()
         {
-            //Redhead
+            Console.Write("It's a Redhead duck");
         }
     }
 }

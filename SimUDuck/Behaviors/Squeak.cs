@@ -6,7 +6,7 @@ namespace SimUDuck.Behaviors
     {
         public void Quack()
         {
-            throw new NotImplementedException();
+            Console.Write("Squeak");
         }
     }
 }

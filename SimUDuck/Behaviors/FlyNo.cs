@@ -1,10 +1,12 @@
-﻿namespace SimUDuck.Behaviors
+﻿using System;
+
+namespace SimUDuck.Behaviors
 {
     public class FlyNo : IFlyBehavior
     {
         public void Fly()
         {
-            //Don't fly
+            Console.Write("Stay stationary");
         }
     }
 }

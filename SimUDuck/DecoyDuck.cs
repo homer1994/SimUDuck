@@ -1,4 +1,6 @@
-﻿namespace SimUDuck
+﻿using System;
+
+namespace SimUDuck
 {
     public class DecoyDuck : Duck
     {
@@ -10,7 +12,7 @@
 
         public override void Display()
         {
-            //Decoy
+            Console.Write("It's a Decoy duck");
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace SimUDuck
+﻿using System;
+
+namespace SimUDuck
 {
     public abstract class Duck
     {
@@ -7,7 +9,7 @@
 
         public void Swim()
         {
-            //Swim ducky
+            Console.Write("Swim ducky, swim");
         }
 
         public void Quack()
