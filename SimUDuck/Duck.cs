@@ -1,25 +1,16 @@
 ﻿namespace SimUDuck
 {
-    public class Duck
+    public abstract class Duck
     {
         public void Swim()
         {
             //Swim ducky
         }
 
-        //public void Quack()
-        //{
-        //    //Quack
-        //}
+        abstract public void Quack();
 
-        //public void Display()
-        //{
+        abstract public void Display();
 
-        //}
-
-        //public void Fly()
-        //{
-
-        //}
+        abstract public void Fly();
     }
 }

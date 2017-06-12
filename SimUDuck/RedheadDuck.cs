@@ -2,19 +2,19 @@
 
 namespace SimUDuck
 {
-    public class RedheadDuck : Duck, IDuck
+    public class RedheadDuck : Duck
     {
-        public void Display()
+        override public void Display()
         {
             //Redhead
         }
 
-        public void Fly()
+        override public void Fly()
         {
             new FlyWithWings().Fly();
         }
 
-        public void Quack()
+        override public void Quack()
         {
             throw new NotImplementedException();
         }

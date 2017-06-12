@@ -6,7 +6,10 @@ namespace SimUDuck
     {
         static void Main(string[] args)
         {
-            new Duck();
+            Duck mallard = new MullardDuck();
+            mallard.Fly();
+            Duck rubberDuck = new RubberDuck();
+            rubberDuck.Quack();
         }
     }
 }

@@ -2,19 +2,19 @@
 
 namespace SimUDuck
 {
-    class RubberDuck : Duck, IDuck
+    class RubberDuck : Duck
     {
-        public void Display()
+        override public void Display()
         {
             //Rubber duck
         }
 
-        public void Fly()
+        override public void Fly()
         {
             new FlyNo().Fly();
         }
 
-        public void Quack()
+        override public void Quack()
         {
             //Override with Squeek
         }

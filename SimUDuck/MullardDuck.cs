@@ -2,19 +2,19 @@
 
 namespace SimUDuck
 {
-    class MullardDuck : Duck, IDuck
+    class MullardDuck : Duck
     {
-        public void Display()
+        override public void Display()
         {
             //Mullard
         }
 
-        public void Fly()
+        override public void Fly()
         {
             new FlyWithWings().Fly();
         }
 
-        public void Quack()
+        override public void Quack()
         {
             throw new NotImplementedException();
         }
