@@ -1,13 +1,20 @@
-﻿namespace SimUDuck
+﻿using System;
+
+namespace SimUDuck
 {
-    class RubberDuck : Duck
+    class RubberDuck : Duck, IDuck
     {
-        void Display()
+        public void Display()
         {
             //Rubber duck
         }
 
-        void Quack()
+        public void Fly()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Quack()
         {
             //Override with Squeek
         }

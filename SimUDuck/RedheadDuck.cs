@@ -1,10 +1,22 @@
-﻿namespace SimUDuck
+﻿using System;
+
+namespace SimUDuck
 {
-    public class RedheadDuck
+    public class RedheadDuck : Duck, IDuck
     {
-        void Display()
+        public void Display()
         {
             //Redhead
+        }
+
+        public void Fly()
+        {
+            FlyingDuck.Fly();
+        }
+
+        public void Quack()
+        {
+            throw new NotImplementedException();
         }
     }
 }

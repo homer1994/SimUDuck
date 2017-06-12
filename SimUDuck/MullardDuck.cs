@@ -1,10 +1,22 @@
-﻿namespace SimUDuck
+﻿using System;
+
+namespace SimUDuck
 {
-    class MullardDuck : Duck
+    class MullardDuck : Duck, IDuck
     {
-        void Display()
+        public void Display()
         {
             //Mullard
+        }
+
+        public void Fly()
+        {
+            FlyingDuck.Fly();
+        }
+
+        public void Quack()
+        {
+            throw new NotImplementedException();
         }
     }
 }
