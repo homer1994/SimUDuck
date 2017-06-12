@@ -1,22 +1,16 @@
-﻿using System;
-
-namespace SimUDuck
+﻿namespace SimUDuck
 {
     public class RedheadDuck : Duck
     {
+        public RedheadDuck()
+        {
+            flyBehavior = new Behaviors.FlyWithWings();
+            quackBehavior = new Behaviors.QuackNormal();
+        }
+
         override public void Display()
         {
             //Redhead
-        }
-
-        override public void Fly()
-        {
-            new Behaviors.FlyWithWings().Fly();
-        }
-
-        override public void Quack()
-        {
-            throw new NotImplementedException();
         }
     }
 }

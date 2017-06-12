@@ -1,22 +1,16 @@
-﻿using System;
-
-namespace SimUDuck
+﻿namespace SimUDuck
 {
     class RubberDuck : Duck
     {
+        public RubberDuck()
+        {
+            flyBehavior = new Behaviors.FlyNo();
+            quackBehavior = new Behaviors.Squeak();
+        }
+
         override public void Display()
         {
             //Rubber duck
-        }
-
-        override public void Fly()
-        {
-            new Behaviors.FlyNo().Fly();
-        }
-
-        override public void Quack()
-        {
-            //Override with Squeek
         }
     }
 }
