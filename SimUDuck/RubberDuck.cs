@@ -11,7 +11,7 @@ namespace SimUDuck
 
         override public void Fly()
         {
-            new FlyNo().Fly();
+            new Behaviors.FlyNo().Fly();
         }
 
         override public void Quack()
