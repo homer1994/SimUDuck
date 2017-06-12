@@ -11,7 +11,7 @@ namespace SimUDuck
 
         public void Fly()
         {
-            FlyingDuck.Fly();
+            new FlyWithWings().Fly();
         }
 
         public void Quack()

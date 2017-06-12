@@ -11,7 +11,7 @@ namespace SimUDuck
 
         public void Fly()
         {
-            throw new NotImplementedException();
+            new FlyNo().Fly();
         }
 
         public void Quack()
