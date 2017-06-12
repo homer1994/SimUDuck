@@ -9,7 +9,7 @@
 
         void Quack()
         {
-            //Override with squeek
+            //Override with Squeek
         }
     }
 }
