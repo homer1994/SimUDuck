@@ -16,6 +16,9 @@ namespace SimUDuck
             Duck rubberDuck = new RubberDuck();
             rubberDuck.Quack();
 
+            rubberDuck.setQuackBehavior(new Behaviors.MuteQuack());
+            rubberDuck.Quack();
+
             Console.WriteLine();
             Console.WriteLine("DecoyDuck");
             Duck decoyDuck = new DecoyDuck();
